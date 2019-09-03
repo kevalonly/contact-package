@@ -15,6 +15,13 @@
         "psr-4": {
             "Kevalonly\\Contact\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kevalonly\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
     
 }
