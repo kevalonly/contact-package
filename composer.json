@@ -1,0 +1,20 @@
+{
+    "name": "kevalonly/contact",
+    "description": "This will send email to admin & save contact query in DB.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keval Panchal",
+            "email": "kevalp@itpathsolutions.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kevalonly\\Contact\\": "src/"
+        }
+    }
+    
+}
